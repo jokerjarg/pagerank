@@ -1,6 +1,6 @@
 import re
 import sys
-import pr
+import pagerank
 
 # coded by : jok3r, mass google pagerank checking
 # jarg1.wordpress.com, jokerjarg@gmail.com
@@ -34,7 +34,7 @@ for s in sites :
 		print s, " exists "
 print " ***results**** "
 for website in websites:
-	res = pr.GetPageRank(website)
+	res = pagerank.GetPageRank(website)
 	ranked.append(website+" : "+res)
 	if(highRank(res) == True):
 		highranks.append(website+" : "+res)
