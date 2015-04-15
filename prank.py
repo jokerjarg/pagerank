@@ -3,7 +3,7 @@ import sys
 import pagerank
 
 # coded by : jok3r, mass google pagerank checking
-# http://www.jokersec.com, jokerjarg@gmail.com
+# http://www.meonsecurity.com, jokerjarg@gmail.com
 
 if(len(sys.argv) < 2):
 	print "[*] Usage : python prank.py sites.txt"
