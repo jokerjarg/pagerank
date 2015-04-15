@@ -2,7 +2,7 @@ import re
 import sys
 import pagerank
 
-# coded by : jok3r, mass google pagerank checking
+# mass google pagerank checking
 # http://www.meonsecurity.com, jokerjarg@gmail.com
 
 if(len(sys.argv) < 2):
